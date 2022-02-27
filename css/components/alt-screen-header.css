@@ -6,6 +6,10 @@
   justify-content: center;
 }
 
+.alt-header-settings {
+  padding-top: 40px;
+}
+
 .alt-header__column {
   width: 33%;
 }

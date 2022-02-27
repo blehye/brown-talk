@@ -1,10 +1,10 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: #eeb18e96;
   padding: 15px 0px;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: -15px;
 }
 
@@ -17,16 +17,33 @@
 }
 
 .friends-screen__channel {
-  margin-top: 25px;
+  margin-top: 20px;
   border-top: var(--main-border);
-  padding-top: 15px;
+  border-bottom: var(--main-border);
+  padding: 12px 0px;
 }
 
-.friends-screen__channel-header {
-  margin-bottom: 30px;
+.friends-screen__friends {
+  margin-top: 7px;
+  padding: 12px 0px;
+}
+
+.friends-screen__channel-header,
+.friends-screen__friends-header {
+  margin-bottom: 12px;
   display: flex;
   justify-content: space-between;
   color: var(--gray);
+}
+
+.user-component-friend {
+  margin-bottom: 20px;
+}
+
+.user-component-friend .user-component__column:last-child {
+  padding: 5px 10px;
+  border: 3px solid rgba(105, 172, 105, 0.7);
+  border-radius: 30px;
 }
 
 @keyframes hideSplashScreen {
@@ -41,7 +58,7 @@
 }
 
 #splash-screen {
-  background-color: rgb(241, 203, 153);
+  background-color: rgb(255, 199, 126);
   position: absolute;
   height: 100vh;
   width: 100vw;

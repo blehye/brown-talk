@@ -7,7 +7,8 @@
 }
 .welcome-header__title {
   margin-bottom: 20px;
-  font-size: 25px;
+  margin-top: 20px;
+  font-size: 30px;
 }
 .welcome-header__text {
   width: 60%;
@@ -22,28 +23,35 @@
 
 #login-form input {
   border: none;
-  padding: 15px 0px;
+  padding: 15px 20px;
   font-size: 18px;
   margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
 }
 
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
+  border-radius: 35px;
 }
 
 #login-form input::placeholder {
   color: var(--gray);
 }
+
 #login-form input:focus {
   border-color: var(--yellow);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #ffab73;
   cursor: pointer;
   padding: 20px 0px;
-  border-radius: 5px;
+  border-radius: 15px;
+  border: 4px dashed rgb(192, 99, 62);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+  color: rgb(133, 58, 35);
+  font-weight: 600;
 }
 #login-form a {
   text-align: center;
