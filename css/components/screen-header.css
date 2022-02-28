@@ -12,10 +12,12 @@
   font-size: 35px;
   font-weight: 800;
   color: rgb(18, 114, 69);
+  text-shadow: rgba(8, 80, 10, 0.322) 1px 1px 5px;
 }
 
 .screen-header__icons span {
   margin-left: 25px;
+  text-shadow: var(--text-shadow);
 }
 
 .screen-header__icons-cog {
