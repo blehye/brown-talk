@@ -1,5 +1,5 @@
 .badge {
-  background-color: rgb(32, 194, 145);
+  background-color: var(--green);
   width: 25px;
   height: 25px;
   border-radius: 50%;

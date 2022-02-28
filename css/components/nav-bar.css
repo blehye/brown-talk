@@ -37,7 +37,7 @@
 }
 
 .nav__notification2 {
-  background-color: rgb(17, 141, 104);
+  background-color: var(--green);
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -46,7 +46,7 @@
 }
 
 .nav__notification3 {
-  background-color: rgb(24, 168, 125);
+  background-color: var(--green);
   width: 5px;
   height: 5px;
   border-radius: 50%;
