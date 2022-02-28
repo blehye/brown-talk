@@ -11,9 +11,11 @@
 }
 
 .badge-settings {
-  background-color: rgb(255, 134, 86);
+  background-color: rgb(247, 149, 198);
   padding: 3px 7px;
   border-radius: 50%;
   color: white;
   font-weight: 100;
+  font-size: 15px;
+  margin-left: 5px;
 }

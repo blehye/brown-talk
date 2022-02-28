@@ -3,9 +3,9 @@
 }
 
 .more-suggestions {
-  margin-top: 50px;
+  margin-top: 30px;
   border-top: var(--main-border);
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .more-suggestions__title {
@@ -14,10 +14,11 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-between;
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  margin: 0px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,12 +27,13 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: rgb(252, 180, 192);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  box-shadow: var(--box-shadow);
 }
 
 .more-suggestions__icon-image i {
@@ -44,7 +46,7 @@
 }
 
 .more__ad-img {
-  margin-top: 50px;
+  margin-top: 40px;
   width: 100%;
   height: 30%;
   border-radius: 15px;
@@ -57,6 +59,6 @@
   color: rgba(255, 255, 255, 0.836);
   font-weight: 200;
   position: absolute;
-  right: 10px;
-  top: 55px;
+  right: 5px;
+  top: 45px;
 }

@@ -40,6 +40,10 @@
   margin-bottom: 10px;
 }
 
+.open-post:hover {
+  background-color: rgba(250, 243, 140, 0.452);
+}
+
 .open-post__title {
   font-weight: 600;
   margin-bottom: 7px;
@@ -76,7 +80,7 @@
 }
 
 .open-post__member-status {
-  color: #ffb0e0;
+  color: rgb(247, 149, 198);
 }
 
 .open-post__photo {
@@ -87,6 +91,7 @@
   width: 110px;
   height: 110px;
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
 }
 
 .open-post__heart-count {
