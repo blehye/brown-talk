@@ -18,6 +18,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/music.css";
 
 @font-face {
   font-family: "jua";
@@ -31,7 +32,7 @@ body {
   color: #2e363e;
   font-family: "jua";
   background-color: #ffebc9;
-  height: 150vh;
+  height: 140vh;
 }
 
 .main-screen {

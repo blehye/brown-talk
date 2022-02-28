@@ -1,7 +1,7 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #eeb18e96;
+  background-color: #69ad8565;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 20px;
@@ -36,16 +36,6 @@
   color: var(--gray);
 }
 
-.user-component-friend {
-  margin-bottom: 20px;
-}
-
-.user-component-friend .user-component__column:last-child {
-  padding: 5px 10px;
-  border: 3px solid rgba(105, 172, 105, 0.7);
-  border-radius: 30px;
-}
-
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
@@ -58,7 +48,7 @@
 }
 
 #splash-screen {
-  background-color: rgb(255, 199, 126);
+  background-color: burlywood;
   position: absolute;
   height: 100vh;
   width: 100vw;

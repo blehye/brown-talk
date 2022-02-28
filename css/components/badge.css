@@ -1,5 +1,5 @@
 .badge {
-  background-color: rgb(24, 168, 125);
+  background-color: rgb(32, 194, 145);
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -8,4 +8,12 @@
   align-items: center;
   color: white;
   font-weight: 600;
+}
+
+.badge-settings {
+  background-color: rgb(255, 134, 86);
+  padding: 3px 7px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 100;
 }

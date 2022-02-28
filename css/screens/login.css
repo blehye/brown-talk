@@ -26,7 +26,7 @@
   padding: 15px 20px;
   font-size: 18px;
   margin-bottom: 25px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+  box-shadow: var(--box-shadow);
 }
 
 #login-form input:not([type="submit"]) {

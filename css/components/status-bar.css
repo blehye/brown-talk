@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  background-color: #b96a4d;
+  background-color: rgb(185, 100, 61);
 }
 
 .status-bar__column {
